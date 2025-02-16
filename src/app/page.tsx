@@ -21,6 +21,7 @@ import logoUnseal from '@/images/clients/unseal/logo-light.svg'
 import imageLaptop from '@/images/laptop.jpg'
 import { type CaseStudy, type MDXEntry, loadCaseStudies } from '@/lib/mdx'
 import HowItWorks from '@/components/howitworks'
+ import { StatList, StatListItem } from '@/components/StatList'
 
 const clients = [
   ['Phobia', logoPhobiaLight],
@@ -186,7 +187,12 @@ export default async function Home() {
 
       <Clients />
       <HowItWorks />
-
+        <StatList>
+            <StatListItem value="20%" label="Стоимость ниже в среднем" />
+            <StatListItem value="850" label="Количество клиентов" />
+            <StatListItem value="1.5 МЛН" label="Количество поездок" />
+            <StatListItem value="5 мин" label="Среднее время подачи авто" />
+        </StatList>
 
 
       <Testimonial
