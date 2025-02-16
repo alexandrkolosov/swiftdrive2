@@ -1,4 +1,4 @@
-import { type Metadata } from 'next'
+ import { type Metadata } from 'next'
 import Image from 'next/image'
 import Link from 'next/link'
 
@@ -165,7 +165,7 @@ function Services() {
 
 export const metadata: Metadata = {
   description:
-    'We are a development studio working at the intersection of design and technology.',
+    'Единая транспортная платформа для бизнеса.',
 }
 
 export default async function Home() {
