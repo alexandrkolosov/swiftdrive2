@@ -30,7 +30,7 @@ function CaseStudies({
     <Container className="mt-40">
       <FadeIn>
         <h2 className="font-display text-2xl font-semibold text-neutral-950">
-          Case studies
+          Примеры интеграций
         </h2>
       </FadeIn>
       <div className="mt-10 space-y-20 sm:space-y-24 lg:space-y-32">
@@ -75,7 +75,7 @@ function CaseStudies({
                       href={caseStudy.href}
                       aria-label={`Read case study: ${caseStudy.client}`}
                     >
-                      Read case study
+                      Прочитать пример
                     </Button>
                   </div>
                   {caseStudy.testimonial && (
@@ -112,7 +112,7 @@ function Clients() {
     <Container className="mt-24 sm:mt-32 lg:mt-40">
       <FadeIn>
         <h2 className="font-display text-2xl font-semibold text-neutral-950">
-          You’re in good company
+          Нам доверяют
         </h2>
       </FadeIn>
       <FadeInStagger className="mt-10" faster>
@@ -137,9 +137,9 @@ function Clients() {
 }
 
 export const metadata: Metadata = {
-  title: 'Our Work',
+  title: 'Примеры нашего сотрудничества с компаниями',
   description:
-    'We believe in efficiency and maximizing our resources to provide the best value to our clients.',
+    'Не уверены? Прочитайте о том, как мы позволяем экономить расходы на корпоративном такси и корпоративном транспорте.',
 }
 
 export default async function Work() {
@@ -148,13 +148,12 @@ export default async function Work() {
   return (
     <>
       <PageIntro
-        eyebrow="Our work"
-        title="Proven solutions for real-world problems."
+        eyebrow="Наши клиенты"
+        title="Узнайте больше о том какие задачи мы решаем "
       >
         <p>
-          We believe in efficiency and maximizing our resources to provide the
-          best value to our clients. The primary way we do that is by re-using
-          the same five projects we’ve been developing for the past decade.
+            Нашими клиентами являются более <span className='font-bold'>800 компаний.</span> Мы работаем как с крупным частным и государственным бизнесом, так и с малыми и средними компаниями в России и СНГ.
+            Ниже мы расскажем вам о некоторых наших примерах сотрудничества с нашими текущими клиентами.
         </p>
       </PageIntro>
 
@@ -162,10 +161,10 @@ export default async function Work() {
 
       <Testimonial
         className="mt-24 sm:mt-32 lg:mt-40"
-        client={{ name: 'Mail Smirk', logo: logoMailSmirk }}
+        client={{ name: 'Андрей В.', logo: logoMailSmirk }}
       >
-        We approached <em>Studio</em> because we loved their past work. They
-        delivered something remarkably similar in record time.
+        Мы работаем со <em>SwiftDrive</em> потому что получили рекомендации от наших партнеров.
+          Все наши запросы решаются быстро, стресс в дальних поездках сократился, т.к. компания поддерживает поездки по всем регионам России, что очень важно для нашей группы компаний.
       </Testimonial>
 
       <Clients />

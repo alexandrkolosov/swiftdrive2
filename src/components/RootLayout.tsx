@@ -80,7 +80,7 @@ function Header({
           <Button href="/contact" invert={invert}>
             Связаться
           </Button>
-          <Button href="/contact" invert >
+          <Button href="/login" invert >
             Войти
           </Button>
           <button
