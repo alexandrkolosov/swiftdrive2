@@ -84,7 +84,7 @@ function ContactForm() {
             </fieldset>
           </div>
         </div>
-        <Button type="submit" className="mt-10">
+        <Button type="submit" invert className="mt-10 hover:cursor-pointer">
           Начнем работать!
         </Button>
       </form>

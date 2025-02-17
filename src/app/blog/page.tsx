@@ -12,9 +12,9 @@ import { formatDate } from '@/lib/formatDate'
 import { loadArticles } from '@/lib/mdx'
 
 export const metadata: Metadata = {
-  title: 'Blog',
+  title: 'Блог',
   description:
-    'Stay up-to-date with the latest industry news as our marketing teams finds new ways to re-purpose old CSS tricks articles.',
+    'Наш корпоративный блог где мы делимся последними новостями в области мобильности и перевозок.',
 }
 
 export default async function Blog() {
@@ -22,10 +22,9 @@ export default async function Blog() {
 
   return (
     <>
-      <PageIntro eyebrow="Blog" title="The latest articles and news">
+      <PageIntro eyebrow="Блог" title="Последние статьи и новости">
         <p>
-          Stay up-to-date with the latest industry news as our marketing teams
-          finds new ways to re-purpose old CSS tricks articles.
+          Оставайся на связи и читай последние новости, статьи и исследования от специалистов из области мобильности, MaaS и IT, а также корпоративного такси и мультимодальнонр транспорта.
         </p>
       </PageIntro>
 
